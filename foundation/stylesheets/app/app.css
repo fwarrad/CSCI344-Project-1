@@ -17,8 +17,12 @@ body {
   background: #000000;
 }
 
-.slider {
-  margin: 0 0 25px 0;
+.columns {
+  
+}
+
+row .twelve {
+  margin: 0 0 10px 0;
 }
 
 .four.columns {
