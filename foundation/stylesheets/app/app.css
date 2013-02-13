@@ -4,8 +4,8 @@
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
-:: Page Name 1
-:: Page Name 2
+:: index.html
+:: faq.html
 */
 
 
@@ -16,6 +16,10 @@ body {
   font-family: 'Ubuntu' sans-serif;
   background: #000000;
 }
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
 
 .columns {
   
@@ -37,16 +41,33 @@ row .twelve {
   color: #fff;
 }
 
-
-/* -----------------------------------------
-   Page Name 1
------------------------------------------ */
-
-
-
-
 /* -----------------------------------------
    Page Name 2
 ----------------------------------------- */
+.nine.columns.push-three {
+  color: #fff;
+  margin: 2px;
+}
 
+.nine.columns.push-three h3 {
+  color: #fff;
+  
+}
 
+.nine.columns.push-three h3 small {
+  color: #fff;
+  font-size: 10pt;
+}
+
+.nine.columns.push-three h4 {
+  color: #fff;
+  font-size: 12pt;
+}
+
+.three.columns.pull-nine {
+  
+}
+
+.three.columns.pull-nine .side-nav {
+  float: top;
+}
