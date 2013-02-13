@@ -17,6 +17,7 @@ body {
   background: #000000;
 }
 
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
@@ -25,49 +26,44 @@ body {
   
 }
 
-row .twelve {
-  margin: 0 0 10px 0;
-}
-
-.four.columns {
+.my-columns {
   color: #fff;
 }
 
-.four.columns h4 {
+.my-columns h4 {
   color: #fff;
 }
 
-.six.columns {
+. {
   color: #fff;
 }
 
 /* -----------------------------------------
    Page Name 2
 ----------------------------------------- */
-.nine.columns.push-three {
-  color: #fff;
-  margin: 2px;
+.faq-content {
+  color: #fff; 
 }
 
-.nine.columns.push-three h3 {
+.faq-content {
   color: #fff;
-  
 }
 
-.nine.columns.push-three h3 small {
+.faq-content h3 small {
   color: #fff;
-  font-size: 10pt;
+  font-size: 10pt; 
 }
 
-.nine.columns.push-three h4 {
+.faq-content h4 {
   color: #fff;
   font-size: 12pt;
 }
 
-.three.columns.pull-nine {
-  
+p.faq-font {
+  margin: 0px;
+  white-space:nowrap;
 }
 
-.three.columns.pull-nine .side-nav {
-  float: top;
+.copyright {
+  color: #fff;
 }
