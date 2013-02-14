@@ -49,6 +49,10 @@ body {
   color: #fff;
 }
 
+.faq-content h3 {
+  color: #fff;
+}
+
 .faq-content h3 small {
   color: #fff;
   font-size: 10pt; 
