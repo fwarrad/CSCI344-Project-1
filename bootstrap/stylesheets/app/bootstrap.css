@@ -3101,10 +3101,10 @@ table th[class*="span"],
 
 .well {
   min-height: 20px;
-  padding: 19px;
+  padding: 29px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+  background-color: #0000;
+  border: 1px solid #0000;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -3450,18 +3450,19 @@ input[type="button"].btn-block {
 .btn-success {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #5bb75b;
-  *background-color: #51a351;
-  background-image: -moz-linear-gradient(top, #62c462, #51a351);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
-  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-  background-image: -o-linear-gradient(top, #62c462, #51a351);
-  background-image: linear-gradient(to bottom, #62c462, #51a351);
+  background-color: #3399ff;
+  *background-color: #3399ff;
+  background-image: -moz-linear-gradient(top, #3399ff, #3399ff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3399ff), to(#3399ff));
+  background-image: -webkit-linear-gradient(top, #3399ff, #3399ff);
+  background-image: -o-linear-gradient(top, #3399ff, #3399ff);
+  background-image: linear-gradient(to bottom, #3399ff, #3399ff);
   background-repeat: repeat-x;
-  border-color: #51a351 #51a351 #387038;
+  border-color: #3399ff #3399ff #3399ff;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  float: right;
 }
 
 .btn-success:hover,
@@ -3471,8 +3472,8 @@ input[type="button"].btn-block {
 .btn-success.disabled,
 .btn-success[disabled] {
   color: #ffffff;
-  background-color: #51a351;
-  *background-color: #499249;
+  background-color: #3399ff;
+  *background-color: #3399ff;
 }
 
 .btn-success:active,
@@ -3562,6 +3563,7 @@ button.btn.btn-large,
 input[type="submit"].btn.btn-large {
   *padding-top: 7px;
   *padding-bottom: 7px;
+  
 }
 
 button.btn.btn-small,
@@ -3666,6 +3668,7 @@ input[type="submit"].btn.btn-mini {
 
 .btn-group > .btn-large {
   font-size: 17.5px;
+  
 }
 
 .btn-group > .btn:first-child {
@@ -3747,6 +3750,7 @@ input[type="submit"].btn.btn-mini {
   padding-right: 12px;
   *padding-bottom: 7px;
   padding-left: 12px;
+  
 }
 
 .btn-group.open .dropdown-toggle {
@@ -3791,6 +3795,7 @@ input[type="submit"].btn.btn-mini {
 
 .btn-large .caret {
   margin-top: 6px;
+  
 }
 
 .btn-large .caret {

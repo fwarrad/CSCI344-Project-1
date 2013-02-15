@@ -92,8 +92,8 @@ body {
         border-radius: 0 3px 3px 0;
       }
       
-      .jumbotron {
-        color: #fff;
+      .hero-unit h1 {
+        font-size: 26px;
       }
       
       .span4 {
@@ -112,10 +112,6 @@ body {
 ----------------------------------------- */
 .faq-content {
   color: #fff; 
-}
-
-.faq-content {
-  color: #fff;
 }
 
 .faq-content h3 small {

@@ -35,8 +35,8 @@ body {
   font-size: 18px;
 }
 
-. {
-  color: #fff;
+p.tagline {
+  font-size: 20px;
 }
 
 /* -----------------------------------------
