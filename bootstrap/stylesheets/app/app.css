@@ -108,12 +108,18 @@ body {
         font-size: 18px;
       }
       
-p.upper-banner {
-      float: right;
+p.lower-banner {
+  float: right;
+  width: 418px;
+  height: 210px;
 }
 /* -----------------------------------------
    faq.html
 ----------------------------------------- */
+.body {
+  font-family: 'Junge', serif;
+}
+
 p.upper-banner {
   float: right;
 }
@@ -141,7 +147,7 @@ p.faq-font {
   white-space:nowrap;
 }
 
-.images {
+.text-wrapped-image {
   width: 172px;
   height: 242px;
   float: left;
