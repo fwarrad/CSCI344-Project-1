@@ -110,8 +110,13 @@ body {
 /* -----------------------------------------
    faq.html
 ----------------------------------------- */
+
 .faq-content {
   color: #fff; 
+}
+
+.faq-content h3 {
+  color: #fff;
 }
 
 .faq-content h3 small {

@@ -10,6 +10,7 @@
 
     <!-- Le styles -->
     <link  href="stylesheets/app/bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/app/faq.css" rel="stylesheet">
     <link href="stylesheets/app/app.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -46,7 +47,12 @@
         </div><!-- /.navbar -->
       </div>
 
-    <div class="well">
+      <div class="row">    
+    
+    <!-- Main Content Section -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="nine columns push-three">
+      
       <div class="faq-content">
       
         <h3>Frequently Asked Questions <small>We understand you're going to have questions, therefore we have provided you with some answers to frequently asked questions.</small></h3>
@@ -81,22 +87,47 @@
             
         </div>
     </div>
+    
+    <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <div class="three columns pull-nine">
       
-      <div class="footer">
-        <p>&copy; Copyright 2013 @gNosis.</p>
-      </div>
-      <div class="nav nav-pills">
-          <div class="nav nav-pills-inner">
-            <div class="container">
-              <ul class="nav nav-pills">
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Service Plan</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Sign Up!</a></li>
-              </ul>
-            </div>
+      <ul class="side-nav">
+        <div class=left-side-nav>
+          <li><a href="#">Support Home</a></li>
+          <li><a href="#">Why @Gnosis?</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Cancel Service</a></li>
+      </ul>
+     <p><img src="http://placehold.it/200x870&text=Ad" /></p>
+    </div>
+    </div>
+
+  </div>
+      
+     
+  <!-- Footer -->
+  
+  <footer class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="six columns">
+         <div class="copyright">
+            <p>&copy; Copyright 2013 @gNosis.</p>
           </div>
-        </div><!-- /.navbar -->
+        </div>
+        <div class="six columns">
+          <ul class="link-list right">
+            <li><a href="#">Sign Up!</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Service Plans</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </footer>
 
     </div> <!-- /container -->
 
