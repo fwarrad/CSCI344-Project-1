@@ -21,6 +21,9 @@ body {
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
+p.upper-banner {
+  float: right;
+}
 
 .columns {
   
@@ -35,6 +38,10 @@ body {
   font-size: 18px;
 }
 
+.copyright {
+  color: #fff;
+}
+
 p.tagline {
   font-size: 20px;
 }
@@ -42,6 +49,10 @@ p.tagline {
 /* -----------------------------------------
    Page Name 2
 ----------------------------------------- */
+p.upper-banner {
+  float: right;
+}
+
 .faq-content {
   color: #fff; 
 }
@@ -68,6 +79,14 @@ p.faq-font {
   margin: 0px;
   white-space:nowrap;
 }
+
+.images {
+  width: 172px;
+  height: 242px;
+  float: left;
+  margin-top:1px;
+  margin-right:1px;
+  margin-bottom:1px;
 
 .copyright {
   color: #fff;

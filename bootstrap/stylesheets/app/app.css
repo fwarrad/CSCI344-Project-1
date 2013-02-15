@@ -107,9 +107,16 @@ body {
       .span4 h2 {
         font-size: 18px;
       }
+      
+p.upper-banner {
+      float: right;
+}
 /* -----------------------------------------
    faq.html
 ----------------------------------------- */
+p.upper-banner {
+  float: right;
+}
 
 .faq-content {
   color: #fff; 
@@ -134,6 +141,14 @@ p.faq-font {
   white-space:nowrap;
 }
 
+.images {
+  width: 172px;
+  height: 242px;
+  float: left;
+  margin-top:1px;
+  margin-right:1px;
+  margin-bottom:1px;
+}
 .copyright {
   color: #fff;
 }
